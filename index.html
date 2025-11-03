@@ -1,1 +1,19 @@
+<form action="https://formspree.io/f/mpwoeeae" method="POST">
+  <label>Name:</label>
+  <input type="text" name="name" required><br>
 
+  <label>Menu Item:</label>
+  <select name="menu_item" required>
+    <option value="Coffee">Coffee</option>
+    <option value="Tea">Tea</option>
+    <option value="Smoothie">Smoothie</option>
+  </select><br>
+
+  <label>Quantity:</label>
+  <input type="number" name="quantity" min="1" value="1"><br>
+
+  <label>Notes:</label>
+  <textarea name="notes"></textarea><br>
+
+  <button type="submit">Submit Order</button>
+</form>
